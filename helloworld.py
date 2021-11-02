@@ -45,3 +45,20 @@ while bol != bol2:
         bol = False
     print(var_rapida)
     var_rapida += 2
+print("-------------")
+
+for i in range(1, 101):
+    if(i % 2 == 0):
+        print(i)
+        i += 1
+    else:
+        i += 1
+
+print("------")
+
+for i in range(1, 101):
+    if(i % 2 == 0):
+        i += 1
+    else:
+        print(i)
+        i += 1
