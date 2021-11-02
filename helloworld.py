@@ -23,3 +23,25 @@ print(not bol)
 print(not bol2)
 print(bol or bol2)
 print(bol and bol2)
+
+if 10 > 5:
+    print('10 es mayor que 5')
+elif 10 > 5:
+    print('Eso es imposible viejo')
+
+if bol:
+    print ('Usamos la variable bol')
+
+if True:
+    print('Es verdadero')
+
+if not False:
+    print ('La negaion es falso')
+
+var_rapida = 0
+
+while bol != bol2:
+    if var_rapida > 10:
+        bol = False
+    print(var_rapida)
+    var_rapida += 2
