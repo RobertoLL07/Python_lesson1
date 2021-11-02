@@ -45,20 +45,59 @@ while bol != bol2:
         bol = False
     print(var_rapida)
     var_rapida += 2
-print("-------------")
 
-for i in range(1, 101):
-    if(i % 2 == 0):
-        print(i)
-        i += 1
-    else:
-        i += 1
+if type(var_rapida) is int:
+    print('Es un entero')
+
+if type(var) is str:
+    print('Es una cadena')
+
+if type(flotante) is float:
+    print('Es flotante')
+
+if type(flotante) is int:
+    print('Es entero')
+
+arr_num = [0, 1, 2, 3]
+arr_car = ['c', 'h', 'a', 'r']
+
+print(arr_car[0])
+print(arr_car[1])
+print(arr_car[3])
+print(len(arr_car))
+print(arr_car[len(arr_car)-1])
+
+for cualquiernombredevariable in arr_num:
+    print(cualquiernombredevariable)
+
+for i in range (5):
+    print(var[i])
+
+
+#print("-------------")
+
+#for i in range(1, 101):
+#    if(i % 2 == 0):
+#       print(i)
+#        i += 1
+#    else:
+#        i += 1
 
 print("------")
 
-for i in range(1, 101):
-    if(i % 2 == 0):
-        i += 1
-    else:
-        print(i)
-        i += 1
+#for i in range(1, 101):
+#    if(i % 2 == 0):
+#        i += 1
+#    else:
+#        print(i)
+#        i += 1
+
+#for i in range (1, 101, 2):
+#    print(i)
+    
+c = [i for i in xrange(2,101) 
+if (i%2!=0 or i==2) 
+and (i%3!=0 or i==3) 
+and (i%5!=0 or i==5) 
+and (i%7!=0 or i==7)]
+print c
